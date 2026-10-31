@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  max-height: 72px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  gap: 25px;
+}
+
+ul li{
+  display: flex;
+  list-style-type: none;
+  font-weight: 500;
+}

@@ -1,0 +1,25 @@
+import React, { useContext } from 'react'
+import { ThemeContext } from '../App'
+
+
+const ChildC = () => {
+  // const user=useContext(UserContext)
+  const {theme,setTheme}=useContext(ThemeContext)  // yha pr ham createContext ko use kr rhe hai
+
+  function handleClick(){
+    if(theme === 'light')
+       setTheme('dark')
+    else
+      setTheme('light')  
+  }
+
+  return (
+    <div>
+      <button onClick={handleClick}>
+        Change Theme
+      </button>
+    </div>
+  )
+}
+
+export default ChildC

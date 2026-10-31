@@ -1,0 +1,20 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+.git_backup/
+PROJECTS/one piece/
+PROJECTS/all projects/App/raect-paste-app/
+HTML/Leptop-Repaire-Website/
+HTML/BUY-MODAFINIL-WEBSITE/
+Node js/MULTER/imageUploads/
+
+HTML/
+/Modafinile-Website/
+
+PROJECTS/all projects/quick/leave.json
+PROJECTS/all projects/quick/leaves.json
+
+PROJECTS/all projects/quick/

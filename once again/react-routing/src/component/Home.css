@@ -1,0 +1,53 @@
+.home {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.814);
+}
+
+.form_one{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid black;
+  background-color: white;
+  height: 440px;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.46);
+  padding: 10px;
+}
+
+.head{
+  display: flex;
+  gap: 10px;
+  height: 50px;
+  width: 100%;
+}
+.head img{
+  height: 40px;
+  width: 40px;
+  padding-top: 20px;
+}
+.head h2{
+  color: white;
+}
+.home p{
+  color: white;
+}
+
+.home input{
+  height: 50px;
+  border-radius: 5px;
+}
+
+.home select{
+  height: 50px;
+  border-radius: 5px;
+}
+.home textarea{
+  height: 50px;
+  border-radius: 5px;
+}
